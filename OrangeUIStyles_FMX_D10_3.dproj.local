@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.984,E:\OrangeUIStyles\Unit1.pas=E:\OrangeUIStyles\ListItemStyleFrame_CarglSelectRepairItem.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.338,=E:\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.806,=E:\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.805,=E:\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.918,=E:\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.405,E:\OrangeUIStyles\Unit1.pas=E:\OrangeUIStyles\ListItemStyleFrame_CarglSelectRepairMaterial.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.357,E:\OrangeUIStyles\OrangeUIStyles_FMX_D10_1.dproj=E:\OrangeUIStyles\OrangeUIStyles_FMX_D10_2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.050,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Package1.dproj=E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIListItemStyles.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.202,E:\MyFiles\OrangeUIControl\Source\Frames\BaseListItemStyleFrame.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.231,=E:\MyFiles\OrangeUIControl\Source\Frames\BaseListItemStyleFrame.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.428,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_IconCaption_BottomDetail_RightDetail1.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.658,E:\MyFiles\OrangeUIStyles\Unit1.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipSerivceShop.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.405,E:\OrangeUIStyles\Unit1.fmx=E:\OrangeUIStyles\ListItemStyleFrame_CarglSelectRepairMaterial.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.984,E:\OrangeUIStyles\Unit1.fmx=E:\OrangeUIStyles\ListItemStyleFrame_CarglSelectRepairItem.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.525,=OrangeUIDesign_FMX_D10_3.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.062,=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.307,E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIListItemStyles.dproj=E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIStyles_FMX_D10_1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.310,E:\OrangeUIStyles\OrangeUIStyles_FMX_D10_2.dproj=E:\OrangeUIStyles\OrangeUIStyles_FMX_D10_3.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.965,E:\OrangeUIAppFramework\OrangeUIStyles\ListItemStyleFrame_PetchipLost.fmx=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.965,E:\OrangeUIAppFramework\OrangeUIStyles\ListItemStyleFrame_PetchipLost.pas=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.140,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipSerivceShop.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipServiceShop.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.975,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_ImageListViewer.fmx=E:\MyFiles\OrangeUIStyles\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>
