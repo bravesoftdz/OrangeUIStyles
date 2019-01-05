@@ -32,8 +32,6 @@ type
     { Public declarations }
   end;
 
-var
-  FrameImageListViewerListItemStyle: TFrameImageListViewerListItemStyle;
 
 implementation
 
@@ -76,6 +74,6 @@ initialization
   RegisterListItemStyle('ImageListViewer',TFrameImageListViewerListItemStyle);
 
 finalization
-  UnRegisterListItemStyle('ImageListViewer');
+  UnRegisterListItemStyle(TFrameImageListViewerListItemStyle);
 
 end.

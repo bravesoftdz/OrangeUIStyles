@@ -26,6 +26,7 @@ inherited FrameCommentListItemStyle: TFrameCommentListItemStyle
       SelfOwnMaterial.BackColor.FillColor.Color = claLightgray
       SelfOwnMaterial.BackColor.DrawEffectSetting.MouseDownEffect.IsFill = True
       SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttCharacter
+      SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaLeft
       SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaCenter
       MouseDownFocus = False
       Align = Client

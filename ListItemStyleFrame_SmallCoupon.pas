@@ -1,4 +1,4 @@
-unit ListItemStyleFrame_CarglSelectRepairMaterial;
+unit ListItemStyleFrame_SmallCoupon;
 
 interface
 
@@ -6,17 +6,22 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
 
+
+  uGraphicCommon,
+  uSkinItems,
+  uBufferBitmap,
   uSkinCustomListType,
   BaseListItemStyleFrame,
 
   ListItemStyleFrame_Base, uSkinLabelType, uSkinFireMonkeyLabel,
   uSkinFireMonkeyControl, uSkinItemDesignerPanelType,
-  uSkinFireMonkeyItemDesignerPanel, uSkinMultiColorLabelType,
-  uSkinFireMonkeyMultiColorLabel;
+  uSkinFireMonkeyItemDesignerPanel, uSkinButtonType, uSkinFireMonkeyButton;
 
 type
-  TFrameCarglSelectRepairMaterialListItemStyle = class(TFrameBaseListItemStyleBase)
-    lblItemDetail: TSkinFMXLabel;
+  TFrameSmallCouponListItemStyle = class(TFrameBaseListItemStyleBase)
+    lblCouponMoney1: TSkinFMXLabel;
+    lblCouponDetail1: TSkinFMXLabel;
+    btnTakeCoupon: TSkinFMXButton;
   private
     { Private declarations }
   public
@@ -28,11 +33,13 @@ implementation
 
 {$R *.fmx}
 
+
 initialization
-  RegisterListItemStyle('CarglSelectRepairMaterial',TFrameCarglSelectRepairMaterialListItemStyle);
+  RegisterListItemStyle('SmallCoupon',TFrameSmallCouponListItemStyle);
 
 
 finalization
-  UnRegisterListItemStyle(TFrameCarglSelectRepairMaterialListItemStyle);
+  UnRegisterListItemStyle(TFrameSmallCouponListItemStyle);
+
 
 end.

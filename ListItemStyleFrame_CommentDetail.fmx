@@ -16,8 +16,8 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
     Properties.ItemIconBindingControl = imgItemIcon
     inherited lblItemCaption: TSkinFMXLabel
       Align = Top
-      Position.X = 86.000000000000000000
-      Size.Width = 384.000000000000000000
+      Position.X = 81.000000000000000000
+      Size.Width = 394.000000000000000000
       Size.Height = 24.000000000000000000
       TabOrder = 1
       Caption = #26631#39064
@@ -30,12 +30,13 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
         SelfOwnMaterial.DrawCaptionParam.FontColor = claDarkgray
         SelfOwnMaterial.DrawCaptionParam.DrawFont.Color = claDarkgray
         SelfOwnMaterial.DrawCaptionParam.DrawFont.FontColor.Color = claDarkgray
+        SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttNone
         SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaRight
         SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaCenter
         MouseDownFocus = False
         Align = Right
         HitTest = False
-        Position.X = 304.000000000000000000
+        Position.X = 314.000000000000000000
         Size.Width = 80.000000000000000000
         Size.Height = 24.000000000000000000
         Size.PlatformDefault = False
@@ -53,13 +54,15 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
       SelfOwnMaterial.BackColor.FillColor.Color = claLightgray
       SelfOwnMaterial.BackColor.DrawEffectSetting.MouseDownEffect.IsFill = True
       SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttCharacter
+      SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaLeft
+      SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaTop
       MouseDownFocus = False
       Align = Client
       Margins.Left = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
       Size.Width = 384.000000000000000000
-      Size.Height = 50.000000000000000000
+      Size.Height = 60.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       Caption = #22238#22797'HappyFyw: '#20320#22909
@@ -111,6 +114,9 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
       SelfOwnMaterial.DrawPictureParam.IsAutoFit = True
       SelfOwnMaterial.DrawPictureParam.PictureHorzAlign = phaCenter
       SelfOwnMaterial.DrawPictureParam.PictureVertAlign = pvaCenter
+      SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttNone
+      SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaLeft
+      SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaTop
       MouseDownFocus = False
       Align = MostLeft
       HitTest = False

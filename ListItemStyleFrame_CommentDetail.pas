@@ -22,8 +22,6 @@ type
     { Public declarations }
   end;
 
-var
-  FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle;
 
 implementation
 
@@ -48,6 +46,6 @@ initialization
   RegisterListItemStyle('CommentDetail',TFrameCommentDetailListItemStyle);
 
 finalization
-  UnRegisterListItemStyle('CommentDetail');
+  UnRegisterListItemStyle(TFrameCommentDetailListItemStyle);
 
 end.

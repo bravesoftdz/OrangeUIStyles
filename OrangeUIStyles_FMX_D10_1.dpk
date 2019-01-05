@@ -34,15 +34,20 @@ requires
   OrangeUIDesign_FMX_D10_1;
 
 contains
-  ListItemStyleFrame_Comment in 'ListItemStyleFrame_Comment.pas' {FrameCommentListItemStyle: TFrame},
-  ListItemStyleFrame_IconCaption in 'ListItemStyleFrame_IconCaption.pas' {FrameIconCaptionListItemStyle: TFrame},
-  ListItemStyleFrame_PetchipContent in 'ListItemStyleFrame_PetchipContent.pas' {FramePetchipContentListItemStyle: TFrame},
-  ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1 in 'ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.pas' {FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrame},
-  ListItemStyleFrame_CommentDetail in 'ListItemStyleFrame_CommentDetail.pas' {FrameCommentDetailListItemStyle: TFrame},
-  ListItemStyleFrame_PetchipArticle in 'ListItemStyleFrame_PetchipArticle.pas' {FramePetchipArticleListItemStyle: TFrame},
   ListItemStyleFrame_Base in 'ListItemStyleFrame_Base.pas' {FrameBaseListItemStyleBase: TFrame},
+  ListItemStyleFrame_CarglSelectRepairItem in 'ListItemStyleFrame_CarglSelectRepairItem.pas' {FrameCarglSelectRepairItemListItemStyle: TFrame},
+  ListItemStyleFrame_CarglSelectRepairMaterial in 'ListItemStyleFrame_CarglSelectRepairMaterial.pas' {FrameCarglSelectRepairMaterialListItemStyle: TFrame},
+  ListItemStyleFrame_Comment in 'ListItemStyleFrame_Comment.pas' {FrameCommentListItemStyle: TFrame},
+  ListItemStyleFrame_CommentDetail in 'ListItemStyleFrame_CommentDetail.pas' {FrameCommentDetailListItemStyle: TFrame},
+  ListItemStyleFrame_IconCaption in 'ListItemStyleFrame_IconCaption.pas' {FrameIconCaptionListItemStyle: TFrame},
+  ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1 in 'ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.pas' {FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrame},
+  ListItemStyleFrame_IconTopCenter_CaptionBottomCenter_Selected in 'ListItemStyleFrame_IconTopCenter_CaptionBottomCenter_Selected.pas' {FrameListItemStyle_IconTopCenter_CaptionBottomCenter_Selected: TFrame},
   ListItemStyleFrame_ImageListViewer in 'ListItemStyleFrame_ImageListViewer.pas' {FrameImageListViewerListItemStyle: TFrame},
+  ListItemStyleFrame_PetchipArticle in 'ListItemStyleFrame_PetchipArticle.pas' {FramePetchipArticleListItemStyle: TFrame},
+  ListItemStyleFrame_PetchipContent in 'ListItemStyleFrame_PetchipContent.pas' {FramePetchipContentListItemStyle: TFrame},
+  ListItemStyleFrame_PetchipContentLost in 'ListItemStyleFrame_PetchipContentLost.pas' {FrameListItemStyle_PetchipContentLost: TFrame},
+  ListItemStyleFrame_PetchipLost in 'ListItemStyleFrame_PetchipLost.pas' {FramePetchipLostListItemStyle: TFrame},
   ListItemStyleFrame_PetchipServiceShop in 'ListItemStyleFrame_PetchipServiceShop.pas' {FramePetchipServiceShopListItemStyle: TFrame},
-  ListItemStyleFrame_PetchipLost in 'ListItemStyleFrame_PetchipLost.pas' {FramePetchipLostListItemStyle: TFrame};
+  ListItemStyleFrame_SmallCoupon in 'ListItemStyleFrame_SmallCoupon.pas' {FrameSmallCouponListItemStyle: TFrame};
 
 end.

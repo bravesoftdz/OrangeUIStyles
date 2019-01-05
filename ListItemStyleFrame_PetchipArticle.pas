@@ -35,8 +35,6 @@ type
     { Public declarations }
   end;
 
-var
-  FramePetchipArticleListItemStyle: TFramePetchipArticleListItemStyle;
 
 implementation
 
@@ -78,6 +76,6 @@ initialization
 
 
 finalization
-  UnRegisterListItemStyle('PetchipArticle');
+  UnRegisterListItemStyle(TFramePetchipArticleListItemStyle);
 
 end.

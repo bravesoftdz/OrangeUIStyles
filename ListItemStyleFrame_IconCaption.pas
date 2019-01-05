@@ -19,8 +19,6 @@ type
     { Public declarations }
   end;
 
-var
-  FrameIconCaptionListItemStyle: TFrameIconCaptionListItemStyle;
 
 implementation
 
@@ -45,7 +43,7 @@ initialization
   RegisterListItemStyle('IconCaption',TFrameIconCaptionListItemStyle);
 
 finalization
-  UnRegisterListItemStyle('IconCaption');
+  UnRegisterListItemStyle(TFrameIconCaptionListItemStyle);
 
 
 end.

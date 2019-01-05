@@ -1,14 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.577,=E:\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.090,E:\OrangeUIStyles\Unit1.pas=E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.428,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_IconCaption_BottomDetail_RightDetail1.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.934,E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Selected.pas=E:\OrangeUIStyles\ListItemStyleFrame_IconTopCenter_CaptionBottomCenter_Selected.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.833,E:\OrangeUIStyles\Unit1.pas=E:\OrangeUIStyles\ListItemStyleFrame_SmallCoupon.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.738,=E:\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.236,E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Checked.fmx=E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Selected.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.934,E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Selected.fmx=E:\OrangeUIStyles\ListItemStyleFrame_IconTopCenter_CaptionBottomCenter_Selected.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.916,=E:\OrangeUIStyles\ListItemStyleFrame_PetchipContentLost.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.668,=E:\OrangeUIStyles\ListItemStyleFrame_CarglSelectRepairItem.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.980,E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter.fmx=E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Checked.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.050,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Package1.dproj=E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIListItemStyles.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.658,E:\MyFiles\OrangeUIStyles\Unit1.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipSerivceShop.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.307,E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIListItemStyles.dproj=E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIStyles_FMX_D10_1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.975,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_ImageListViewer.fmx=E:\MyFiles\OrangeUIStyles\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.062,=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.833,E:\OrangeUIStyles\Unit1.fmx=E:\OrangeUIStyles\ListItemStyleFrame_SmallCoupon.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.090,E:\OrangeUIStyles\Unit1.fmx=E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.236,E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Checked.pas=E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Selected.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.965,E:\OrangeUIAppFramework\OrangeUIStyles\ListItemStyleFrame_PetchipLost.fmx=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.759,=E:\OrangeUIStyles\ListItemStyleFrame_CarglSelectRepairMaterial.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.140,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipSerivceShop.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipServiceShop.fmx</Transaction>
     <Transaction>1899-12-30 00:00:00.000.965,E:\OrangeUIAppFramework\OrangeUIStyles\ListItemStyleFrame_PetchipLost.pas=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.965,E:\OrangeUIAppFramework\OrangeUIStyles\ListItemStyleFrame_PetchipLost.fmx=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.fmx</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.050,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Package1.dproj=E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIListItemStyles.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.975,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_ImageListViewer.fmx=E:\MyFiles\OrangeUIStyles\Unit1.fmx</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.428,E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_IconCaption_BottomDetail_RightDetail1.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.fmx</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.062,=E:\OrangeUIAppFramework\OrangeUIStyles\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.307,E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIListItemStyles.dproj=E:\MyFiles\OrangeProjectCommon\ListItemStyleFrames\OrangeUIStyles_FMX_D10_1.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.658,E:\MyFiles\OrangeUIStyles\Unit1.fmx=E:\MyFiles\OrangeUIStyles\ListItemStyleFrame_PetchipSerivceShop.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.980,E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter.pas=E:\OrangeUIStyles\ListItemStyleFrame_IconBigTopCenter_CaptionBottomCenter_Checked.pas</Transaction>
   </Transactions>
 </BorlandProject>

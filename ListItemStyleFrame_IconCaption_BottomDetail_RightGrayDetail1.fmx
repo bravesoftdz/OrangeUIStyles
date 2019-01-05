@@ -12,8 +12,8 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
     inherited lblItemCaption: TSkinFMXLabel
       Align = Top
       Margins.Right = 10.000000000000000000
-      Position.X = 86.000000000000000000
-      Size.Width = 260.000000000000000000
+      Position.X = 81.000000000000000000
+      Size.Width = 265.000000000000000000
       Size.Height = 36.000000000000000000
       TabOrder = 1
       object lblItemDetail1: TSkinFMXLabel
@@ -24,12 +24,13 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
         SelfOwnMaterial.DrawCaptionParam.FontColor = claDarkgray
         SelfOwnMaterial.DrawCaptionParam.DrawFont.Color = claDarkgray
         SelfOwnMaterial.DrawCaptionParam.DrawFont.FontColor.Color = claDarkgray
+        SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttNone
         SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaRight
         SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaCenter
         MouseDownFocus = False
         Align = Right
         HitTest = False
-        Position.X = 180.000000000000000000
+        Position.X = 185.000000000000000000
         Size.Width = 80.000000000000000000
         Size.Height = 36.000000000000000000
         Size.PlatformDefault = False
@@ -47,6 +48,9 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
       SelfOwnMaterial.DrawPictureParam.IsAutoFit = True
       SelfOwnMaterial.DrawPictureParam.PictureHorzAlign = phaCenter
       SelfOwnMaterial.DrawPictureParam.PictureVertAlign = pvaCenter
+      SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttNone
+      SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaLeft
+      SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaTop
       MouseDownFocus = False
       Align = MostLeft
       HitTest = False
@@ -137,6 +141,9 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
       SelfOwnMaterial.DrawCaptionParam.DrawFont.Color = claGray
       SelfOwnMaterial.DrawCaptionParam.DrawFont.FontColor.Color = claGray
       SelfOwnMaterial.DrawCaptionParam.IsWordWrap = True
+      SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttNone
+      SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaLeft
+      SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaTop
       MouseDownFocus = False
       Align = Client
       HitTest = False
@@ -144,7 +151,7 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
       Margins.Right = 10.000000000000000000
       Margins.Bottom = 5.000000000000000000
       Size.Width = 260.000000000000000000
-      Size.Height = 30.000000000000000000
+      Size.Height = 40.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       Caption = #21015#34920#39033#26126#32454#20869#23481

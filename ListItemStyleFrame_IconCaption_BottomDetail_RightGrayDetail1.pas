@@ -21,8 +21,6 @@ type
     { Public declarations }
   end;
 
-var
-  FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle;
 
 implementation
 
@@ -46,7 +44,7 @@ initialization
   RegisterListItemStyle('IconCaption_BottomDetail_RightGrayDetail1',TFrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle);
 
 finalization
-  UnRegisterListItemStyle('IconCaption_BottomDetail_RightGrayDetail1');
+  UnRegisterListItemStyle(TFrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle);
 
 
 end.

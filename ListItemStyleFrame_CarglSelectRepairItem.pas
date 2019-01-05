@@ -23,8 +23,6 @@ type
     { Public declarations }
   end;
 
-var
-  FrameCarglSelectRepairItemListItemStyle: TFrameCarglSelectRepairItemListItemStyle;
 
 implementation
 
@@ -35,6 +33,6 @@ initialization
 
 
 finalization
-  UnRegisterListItemStyle('CarglSelectRepairItem');
+  UnRegisterListItemStyle(TFrameCarglSelectRepairItemListItemStyle);
 
 end.

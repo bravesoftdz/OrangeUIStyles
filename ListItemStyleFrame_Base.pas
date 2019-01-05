@@ -17,8 +17,6 @@ type
     { Public declarations }
   end;
 
-var
-  FrameBaseListItemStyleBase: TFrameBaseListItemStyleBase;
 
 implementation
 

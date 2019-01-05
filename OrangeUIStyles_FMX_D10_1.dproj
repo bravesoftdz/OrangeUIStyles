@@ -123,23 +123,23 @@
         <DCCReference Include="dbrtl.dcp"/>
         <DCCReference Include="fmx.dcp"/>
         <DCCReference Include="OrangeUIDesign_FMX_D10_1.dcp"/>
+        <DCCReference Include="ListItemStyleFrame_Base.pas">
+            <Form>FrameBaseListItemStyleBase</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_CarglSelectRepairItem.pas">
+            <Form>FrameCarglSelectRepairItemListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_CarglSelectRepairMaterial.pas">
+            <Form>FrameCarglSelectRepairMaterialListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <DCCReference Include="ListItemStyleFrame_Comment.pas">
             <Form>FrameCommentListItemStyle</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="ListItemStyleFrame_IconCaption.pas">
-            <Form>FrameIconCaptionListItemStyle</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="ListItemStyleFrame_PetchipContent.pas">
-            <Form>FramePetchipContentListItemStyle</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.pas">
-            <Form>FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -148,13 +148,18 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="ListItemStyleFrame_PetchipArticle.pas">
-            <Form>FramePetchipArticleListItemStyle</Form>
+        <DCCReference Include="ListItemStyleFrame_IconCaption.pas">
+            <Form>FrameIconCaptionListItemStyle</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="ListItemStyleFrame_Base.pas">
-            <Form>FrameBaseListItemStyleBase</Form>
+        <DCCReference Include="ListItemStyleFrame_IconCaption_BottomDetail_RightGrayDetail1.pas">
+            <Form>FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_IconTopCenter_CaptionBottomCenter_Selected.pas">
+            <Form>FrameListItemStyle_IconTopCenter_CaptionBottomCenter_Selected</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -163,13 +168,33 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="ListItemStyleFrame_PetchipServiceShop.pas">
-            <Form>FramePetchipServiceShopListItemStyle</Form>
+        <DCCReference Include="ListItemStyleFrame_PetchipArticle.pas">
+            <Form>FramePetchipArticleListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_PetchipContent.pas">
+            <Form>FramePetchipContentListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_PetchipContentLost.pas">
+            <Form>FrameListItemStyle_PetchipContentLost</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="ListItemStyleFrame_PetchipLost.pas">
             <Form>FramePetchipLostListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_PetchipServiceShop.pas">
+            <Form>FramePetchipServiceShopListItemStyle</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ListItemStyleFrame_SmallCoupon.pas">
+            <Form>FrameSmallCouponListItemStyle</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -226,16 +251,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployClass Name="DependencyModule">
-                    <Platform Name="Win32">
-                        <Operation>0</Operation>
-                        <Extensions>.dll;.bpl</Extensions>
-                    </Platform>
-                    <Platform Name="OSX32">
-                        <Operation>1</Operation>
-                        <Extensions>.dylib</Extensions>
-                    </Platform>
-                </DeployClass>
+                <DeployClass Name="ProjectiOSDeviceResourceRules"/>
                 <DeployClass Name="ProjectOSXResource">
                     <Platform Name="OSX32">
                         <RemoteDir>Contents\Resources</RemoteDir>
@@ -574,7 +590,16 @@
                         <Operation>1</Operation>
                     </Platform>
                 </DeployClass>
-                <DeployClass Name="ProjectiOSDeviceResourceRules"/>
+                <DeployClass Name="DependencyModule">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.dll;.bpl</Extensions>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                </DeployClass>
                 <ProjectRoot Platform="iOSDevice64" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>

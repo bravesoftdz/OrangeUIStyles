@@ -6,8 +6,8 @@ inherited FrameIconCaptionListItemStyle: TFrameIconCaptionListItemStyle
     Properties.PreviewItem.Childs.Data = {140000000000000400000000005C000000}
     Properties.ItemIconBindingControl = imgItemIcon
     inherited lblItemCaption: TSkinFMXLabel
-      Size.Width = 255.000000000000000000
-      Size.Height = 36.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 46.000000000000000000
     end
     object imgItemIcon: TSkinFMXImage
       ParentMouseEvent = False
@@ -17,6 +17,9 @@ inherited FrameIconCaptionListItemStyle: TFrameIconCaptionListItemStyle
       SelfOwnMaterial.DrawPictureParam.IsAutoFit = True
       SelfOwnMaterial.DrawPictureParam.PictureHorzAlign = phaCenter
       SelfOwnMaterial.DrawPictureParam.PictureVertAlign = pvaCenter
+      SelfOwnMaterial.DrawCaptionParam.FontTrimming = fttNone
+      SelfOwnMaterial.DrawCaptionParam.FontHorzAlign = fhaLeft
+      SelfOwnMaterial.DrawCaptionParam.FontVertAlign = fvaTop
       MouseDownFocus = False
       Align = Left
       HitTest = False
