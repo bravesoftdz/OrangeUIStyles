@@ -37,6 +37,7 @@ type
     lblPetLostTime: TSkinFMXLabel;
     lblPetPoint: TSkinFMXLabel;
     lblPetAddr: TSkinFMXLabel;
+    SkinFMXImage1: TSkinFMXImage;
   private
     { Private declarations }
   public

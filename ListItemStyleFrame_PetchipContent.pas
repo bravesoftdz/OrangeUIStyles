@@ -43,6 +43,7 @@ type
     btnLikeState: TSkinFMXButton;
     btnComment: TSkinFMXButton;
     btnFocused: TSkinFMXButton;
+    btnFavState: TSkinFMXButton;
     procedure lbCommentListGetItemBufferCacheTag(Sender: TObject;
       AItem: TSkinItem; var ACacheTag: Integer);
   private

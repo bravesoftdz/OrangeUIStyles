@@ -11,9 +11,13 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
     Properties.ItemIconBindingControl = imgItemIcon
     inherited lblItemCaption: TSkinFMXLabel
       Align = Top
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
       Margins.Right = 10.000000000000000000
-      Position.X = 81.000000000000000000
-      Size.Width = 265.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 86.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 260.000000000000000000
       Size.Height = 36.000000000000000000
       TabOrder = 1
       object lblItemDetail1: TSkinFMXLabel
@@ -30,7 +34,7 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
         MouseDownFocus = False
         Align = Right
         HitTest = False
-        Position.X = 185.000000000000000000
+        Position.X = 180.000000000000000000
         Size.Width = 80.000000000000000000
         Size.Height = 36.000000000000000000
         Size.PlatformDefault = False
@@ -151,7 +155,7 @@ inherited FrameIconCaption_BottomDetail_RightGrayDetail1ListItemStyle: TFrameIco
       Margins.Right = 10.000000000000000000
       Margins.Bottom = 5.000000000000000000
       Size.Width = 260.000000000000000000
-      Size.Height = 40.000000000000000000
+      Size.Height = 30.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       Caption = #21015#34920#39033#26126#32454#20869#23481

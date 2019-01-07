@@ -16,8 +16,13 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
     Properties.ItemIconBindingControl = imgItemIcon
     inherited lblItemCaption: TSkinFMXLabel
       Align = Top
-      Position.X = 81.000000000000000000
-      Size.Width = 394.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 86.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 384.000000000000000000
       Size.Height = 24.000000000000000000
       TabOrder = 1
       Caption = #26631#39064
@@ -36,7 +41,7 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
         MouseDownFocus = False
         Align = Right
         HitTest = False
-        Position.X = 314.000000000000000000
+        Position.X = 304.000000000000000000
         Size.Width = 80.000000000000000000
         Size.Height = 24.000000000000000000
         Size.PlatformDefault = False
@@ -62,7 +67,7 @@ inherited FrameCommentDetailListItemStyle: TFrameCommentDetailListItemStyle
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
       Size.Width = 384.000000000000000000
-      Size.Height = 60.000000000000000000
+      Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       Caption = #22238#22797'HappyFyw: '#20320#22909
